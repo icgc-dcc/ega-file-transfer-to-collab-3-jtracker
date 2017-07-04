@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000220127", 
+    "completed@decryption.EGAF00000220127", 
+    "completed@download.EGAF00000220127"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": "{{idx_file_md5sum@generate_bai.EGAF00000220127}}", 
+    "file_name": "c81006653b49124df0a00075e74dcf18.HCC132T_ACAGTG_L001_R1_045.fastq.bz2", 
+    "idx_file": "{{idx_file@generate_bai.EGAF00000220127}}", 
+    "object_id": "{{object_id@download.EGAF00000220127}}", 
+    "idx_file_name": "{{idx_file_name@generate_bai.EGAF00000220127}}", 
+    "file_md5sum": "{{file_md5sum@download.EGAF00000220127}}", 
+    "file": "{{file@decryption.EGAF00000220127}}", 
+    "idx_object_id": "{{idx_object_id@generate_bai.EGAF00000220127}}", 
+    "project_code": "LINC-JP"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
