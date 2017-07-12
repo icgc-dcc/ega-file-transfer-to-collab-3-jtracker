@@ -1,0 +1,17 @@
+{
+  "task": "generate_bai", 
+  "depends_on": [
+    "completed@decryption.EGAF00000217040", 
+    "completed@md5sum_check_decrypt.EGAF00000217040"
+  ], 
+  "tool": "generate_bai", 
+  "command": "generate_bai.py", 
+  "input": {
+    "bam_file": "/home/ubuntu/jtracker/worker.1499715228.c40c55ff.host.76674056.10.10.0.19/job.EGAR00001117998.LINC-JP.HCC109T.EGAN00001086052/task.decryption.EGAF00000217040/61455d831b3ab1a588ffd22872ee8d18.HCC109T_ATCACG_L008_R2_046.fastq.bz2", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
