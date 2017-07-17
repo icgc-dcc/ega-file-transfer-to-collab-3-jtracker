@@ -1,0 +1,20 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "file_name": "bundle.EGAR00001199282.xml", 
+    "object_id": "06c08e62-5b77-52f8-8245-240e874bbb6c", 
+    "file_md5sum": "{{xml_file_md5sum@prepare_metadata_xml}}", 
+    "file": "{{xml_file@prepare_metadata_xml}}", 
+    "file_size": "{{xml_file_size@prepare_metadata_xml}}", 
+    "bundle_id": "EGAR00001199282", 
+    "project_code": "LINC-JP"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
