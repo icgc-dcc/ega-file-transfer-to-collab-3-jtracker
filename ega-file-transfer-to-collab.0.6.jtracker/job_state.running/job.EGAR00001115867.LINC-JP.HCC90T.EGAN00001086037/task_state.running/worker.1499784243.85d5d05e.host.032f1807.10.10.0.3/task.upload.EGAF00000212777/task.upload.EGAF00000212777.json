@@ -1,0 +1,26 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00000212777", 
+    "completed@generate_bai.EGAF00000212777", 
+    "completed@upload_to_aws.EGAF00000212777"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_size": null, 
+    "idx_file_md5sum": null, 
+    "file_name": "de2689e9da4756df7fd872d3f6d142b1.HCC90T_CAGATC_L005_R1_042.fastq.bz2", 
+    "idx_file": null, 
+    "object_id": "8dd207d8-2d6f-5ffc-a446-7595e1e51e2c", 
+    "file_md5sum": "de2689e9da4756df7fd872d3f6d142b1", 
+    "file": "/home/ubuntu/jtracker/worker.1499784243.85d5d05e.host.032f1807.10.10.0.3/job.EGAR00001115867.LINC-JP.HCC90T.EGAN00001086037/task.decryption.EGAF00000212777/de2689e9da4756df7fd872d3f6d142b1.HCC90T_CAGATC_L005_R1_042.fastq.bz2", 
+    "file_size": 145815768, 
+    "bundle_id": "EGAR00001115867", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
