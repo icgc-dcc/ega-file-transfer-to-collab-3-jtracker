@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000219816", 
+    "completed@decryption.EGAF00000219816", 
+    "completed@download.EGAF00000219816"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "4628a2ef9a750ae5750f8e9a2764f790.HCC130T_TAGGC_L007_R2_006.fastq.bz2", 
+    "idx_file": null, 
+    "object_id": "b17b60ca-cf76-5c15-8c1f-14e41facc9c0", 
+    "project_code": "LINC-JP", 
+    "file_md5sum": "4628a2ef9a750ae5750f8e9a2764f790", 
+    "file": "/home/ubuntu/jtracker/worker.1499805416.a2426c62.host.231181a3.10.10.1.7/job.EGAR00001119386.LINC-JP.HCC130T.EGAN00001086066/task.decryption.EGAF00000219816/4628a2ef9a750ae5750f8e9a2764f790.HCC130T_TAGGC_L007_R2_006.fastq.bz2", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
