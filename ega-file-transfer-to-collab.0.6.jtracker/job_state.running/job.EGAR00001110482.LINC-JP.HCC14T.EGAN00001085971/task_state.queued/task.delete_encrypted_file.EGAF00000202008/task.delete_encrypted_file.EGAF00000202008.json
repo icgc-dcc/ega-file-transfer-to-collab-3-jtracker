@@ -1,13 +1,13 @@
 {
   "task": "delete_encrypted_file", 
   "depends_on": [
-    "completed@md5sum_check_decrypt.EGAF00000201036", 
-    "completed@download.EGAF00000201036"
+    "completed@md5sum_check_decrypt.EGAF00000202008", 
+    "completed@download.EGAF00000202008"
   ], 
   "tool": "delete_file", 
   "command": "delete_file.py", 
   "input": {
-    "file": "{{file@download.EGAF00000201036}}"
+    "file": "{{file@download.EGAF00000202008}}"
   }, 
   "runtime": {
     "docker": null
