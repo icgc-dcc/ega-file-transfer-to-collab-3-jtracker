@@ -1,0 +1,45 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000683411", 
+    "completed@decryption.EGAF00000683411", 
+    "completed@download.EGAF00000683411"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1502297042.33adc75f.host.2b33d591.10.10.0.20", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "f0bb6150385be75b14ff1d9d1c29b118", 
+      "file": "/home/ubuntu/jtracker/worker.1502297042.33adc75f.host.2b33d591.10.10.0.20/job.EGAR00001264692.BTCA-JP.BD244T.EGAN00001247037/task.decryption.EGAF00000683411/f0bb6150385be75b14ff1d9d1c29b118.BD244T_GCCAAT_L007_R1_024.fastq.bz2", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1502353091, 
+        "task_stop": 1502353091
+      }
+    }
+  ], 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "f0bb6150385be75b14ff1d9d1c29b118.BD244T_GCCAAT_L007_R1_024.fastq.bz2", 
+    "idx_file": null, 
+    "object_id": "de319207-9f88-5128-83e9-6422e4c6d457", 
+    "idx_file_name": null, 
+    "file_md5sum": "f0bb6150385be75b14ff1d9d1c29b118", 
+    "file": "/home/ubuntu/jtracker/worker.1502297042.33adc75f.host.2b33d591.10.10.0.20/job.EGAR00001264692.BTCA-JP.BD244T.EGAN00001247037/task.decryption.EGAF00000683411/f0bb6150385be75b14ff1d9d1c29b118.BD244T_GCCAAT_L007_R1_024.fastq.bz2", 
+    "idx_object_id": null, 
+    "project_code": "BTCA-JP"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
