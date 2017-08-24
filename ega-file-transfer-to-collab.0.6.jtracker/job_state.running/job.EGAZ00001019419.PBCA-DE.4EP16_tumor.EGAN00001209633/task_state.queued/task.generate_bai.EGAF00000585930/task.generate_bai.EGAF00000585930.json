@@ -1,0 +1,17 @@
+{
+  "task": "generate_bai", 
+  "depends_on": [
+    "completed@decryption.EGAF00000585930", 
+    "completed@md5sum_check_decrypt.EGAF00000585930"
+  ], 
+  "tool": "generate_bai", 
+  "command": "generate_bai.py", 
+  "input": {
+    "bam_file": "{{file@decryption.EGAF00000585930}}", 
+    "idx_object_id": "324c7e2c-04e1-5548-b6e6-5c333809d116", 
+    "idx_file_name": "aed1e1b70b55d72ac7ce8b2e79f744bb.WXS_PAIRED_tumor_4EP16_T_merged.bam.rmdup.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task": "qc_from_collab", 
+  "depends_on": [
+    "completed@upload.EGAF00000585930"
+  ], 
+  "tool": "qc_from_collab", 
+  "command": "qc_from_collab.py", 
+  "input": {
+    "file_name": "aed1e1b70b55d72ac7ce8b2e79f744bb.WXS_PAIRED_tumor_4EP16_T_merged.bam.rmdup.bam", 
+    "object_id": "81d855b2-3de3-5484-ba39-13e28b4eb6b4"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
