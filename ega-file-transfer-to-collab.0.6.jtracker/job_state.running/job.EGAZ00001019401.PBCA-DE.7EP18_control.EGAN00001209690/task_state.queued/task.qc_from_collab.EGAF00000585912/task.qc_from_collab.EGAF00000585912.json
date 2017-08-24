@@ -1,0 +1,15 @@
+{
+  "task": "qc_from_collab", 
+  "depends_on": [
+    "completed@upload.EGAF00000585912"
+  ], 
+  "tool": "qc_from_collab", 
+  "command": "qc_from_collab.py", 
+  "input": {
+    "file_name": "cbb19043545ebae3475e180ab6d09cb7.WXS_PAIRED_blood_7EP18_merged.bam.rmdup.bam", 
+    "object_id": "b4e4d172-76e7-585e-ad4a-55458d3350bf"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
