@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "724fa2a07dbc7de96c127ec6f2321dac", 
+      "file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019382.PBCA-DE.4EP23_control.EGAN00001209642/task.prepare_metadata_xml/bundle.EGAZ00001019382.xml", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1503600744, 
+        "task_stop": 1503600744
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAZ00001019382.xml", 
+    "object_id": "d2b28ab3-4db2-537b-a6a9-204721d47f1f", 
+    "file_md5sum": "724fa2a07dbc7de96c127ec6f2321dac", 
+    "file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019382.PBCA-DE.4EP23_control.EGAN00001209642/task.prepare_metadata_xml/bundle.EGAZ00001019382.xml", 
+    "file_size": 7512, 
+    "bundle_id": "EGAZ00001019382", 
+    "project_code": "PBCA-DE"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
