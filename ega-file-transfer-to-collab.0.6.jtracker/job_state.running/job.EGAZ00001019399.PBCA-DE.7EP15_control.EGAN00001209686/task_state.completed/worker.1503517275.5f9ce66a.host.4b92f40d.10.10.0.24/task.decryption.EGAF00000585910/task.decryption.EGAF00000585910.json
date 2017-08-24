@@ -1,0 +1,38 @@
+{
+  "task": "decryption", 
+  "depends_on": [
+    "completed@download.EGAF00000585910"
+  ], 
+  "tool": "decryption", 
+  "command": "decryption.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "49fb3d32089f5ced1bfedfde08c92600.WXS_PAIRED_blood_7EP15_merged.bam.rmdup.bam", 
+      "ega_file_id": "EGAF00000585910", 
+      "object_id": "2b7a3821-6857-5e94-851f-8ec0389ab3e6", 
+      "file_md5sum": "49fb3d32089f5ced1bfedfde08c92600", 
+      "file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019399.PBCA-DE.7EP15_control.EGAN00001209686/task.decryption.EGAF00000585910/49fb3d32089f5ced1bfedfde08c92600.WXS_PAIRED_blood_7EP15_merged.bam.rmdup.bam", 
+      "file_size": 7507888841, 
+      "runtime": {
+        "task_start": 1503550357, 
+        "task_stop": 1503550396
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "49fb3d32089f5ced1bfedfde08c92600.WXS_PAIRED_blood_7EP15_merged.bam.rmdup.bam", 
+    "file_md5sum": "49fb3d32089f5ced1bfedfde08c92600", 
+    "ega_file_id": "EGAF00000585910", 
+    "object_id": "2b7a3821-6857-5e94-851f-8ec0389ab3e6", 
+    "input_file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019399.PBCA-DE.7EP15_control.EGAN00001209686/task.download.EGAF00000585910/49fb3d32089f5ced1bfedfde08c92600.WXS_PAIRED_blood_7EP15_merged.bam.rmdup.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
