@@ -1,0 +1,36 @@
+{
+  "task": "generate_bai", 
+  "depends_on": [
+    "completed@decryption.EGAF00000585916", 
+    "completed@md5sum_check_decrypt.EGAF00000585916"
+  ], 
+  "tool": "generate_bai", 
+  "command": "generate_bai.py", 
+  "output": [
+    {
+      "idx_file_size": 2757160, 
+      "idx_file_md5sum": "b407ebdd7e5582efb0f263395d415b27", 
+      "_jt_": {
+        "worker_id": "worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019405.PBCA-DE.7EP27_control.EGAN00001209698/task.generate_bai.EGAF00000585916/06f67751ce4df9d377b97fef712e6a0e.WXS_PAIRED_blood_7EP27_merged.bam.rmdup.bam.bai", 
+      "idx_object_id": "f1fc4408-ae55-5bd0-b581-839902d177d6", 
+      "runtime": {
+        "task_start": 1503565762, 
+        "task_stop": 1503565828
+      }, 
+      "idx_file_name": "06f67751ce4df9d377b97fef712e6a0e.WXS_PAIRED_blood_7EP27_merged.bam.rmdup.bam.bai"
+    }
+  ], 
+  "input": {
+    "bam_file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019405.PBCA-DE.7EP27_control.EGAN00001209698/task.decryption.EGAF00000585916/06f67751ce4df9d377b97fef712e6a0e.WXS_PAIRED_blood_7EP27_merged.bam.rmdup.bam", 
+    "idx_object_id": "f1fc4408-ae55-5bd0-b581-839902d177d6", 
+    "idx_file_name": "06f67751ce4df9d377b97fef712e6a0e.WXS_PAIRED_blood_7EP27_merged.bam.rmdup.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
