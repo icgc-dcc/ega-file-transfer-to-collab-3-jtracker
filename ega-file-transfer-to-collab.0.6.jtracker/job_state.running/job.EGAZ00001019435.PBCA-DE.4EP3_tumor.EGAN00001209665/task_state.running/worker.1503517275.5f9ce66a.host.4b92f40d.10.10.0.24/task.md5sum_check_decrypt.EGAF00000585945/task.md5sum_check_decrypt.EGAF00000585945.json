@@ -1,0 +1,15 @@
+{
+  "task": "md5sum_check_decrypt", 
+  "depends_on": [
+    "completed@decryption.EGAF00000585945"
+  ], 
+  "tool": "md5sum_check", 
+  "command": "md5sum_check.py", 
+  "input": {
+    "file_md5sum": "b6ef8c706644ad7536e140e4f80e95ec", 
+    "file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019435.PBCA-DE.4EP3_tumor.EGAN00001209665/task.decryption.EGAF00000585945/b6ef8c706644ad7536e140e4f80e95ec.WXS_PAIRED_tumor_4EP3_T_merged.bam.rmdup.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
