@@ -1,0 +1,26 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00000585971", 
+    "completed@generate_bai.EGAF00000585971", 
+    "completed@upload_to_aws.EGAF00000585971"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_size": 2744784, 
+    "idx_file_md5sum": "7ba199922eca80f93ae5423b06343ece", 
+    "file_name": "7433ab82b5cb3e8b96b13b2209439a53.WXS_PAIRED_blood_4EP3_T_merged.bam.rmdup.bam", 
+    "idx_file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019393.PBCA-DE.4EP3_control.EGAN00001209664/task.generate_bai.EGAF00000585971/7433ab82b5cb3e8b96b13b2209439a53.WXS_PAIRED_blood_4EP3_T_merged.bam.rmdup.bam.bai", 
+    "object_id": "139144b6-ddf0-522a-b579-a343ce484072", 
+    "file_md5sum": "7433ab82b5cb3e8b96b13b2209439a53", 
+    "file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019393.PBCA-DE.4EP3_control.EGAN00001209664/task.decryption.EGAF00000585971/7433ab82b5cb3e8b96b13b2209439a53.WXS_PAIRED_blood_4EP3_T_merged.bam.rmdup.bam", 
+    "file_size": 4265646797, 
+    "bundle_id": "EGAZ00001019393", 
+    "idx_object_id": "26bc8168-4132-526e-87fd-a3b3931962a4", 
+    "idx_file_name": "7433ab82b5cb3e8b96b13b2209439a53.WXS_PAIRED_blood_4EP3_T_merged.bam.rmdup.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
