@@ -1,0 +1,20 @@
+{
+  "task": "xml_file_upload", 
+  "depends_on": [
+    "completed@xml_upload_to_aws", 
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "file_name": "bundle.EGAZ00001019422.xml", 
+    "object_id": "3492dca5-2d32-5f09-907f-ba7cda15f9f4", 
+    "file_md5sum": "{{xml_file_md5sum@prepare_metadata_xml}}", 
+    "file": "{{xml_file@prepare_metadata_xml}}", 
+    "file_size": "{{xml_file_size@prepare_metadata_xml}}", 
+    "bundle_id": "EGAZ00001019422"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
