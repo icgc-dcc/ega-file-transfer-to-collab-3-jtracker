@@ -1,0 +1,36 @@
+{
+  "task": "generate_bai", 
+  "depends_on": [
+    "completed@decryption.EGAF00000585953", 
+    "completed@md5sum_check_decrypt.EGAF00000585953"
+  ], 
+  "tool": "generate_bai", 
+  "command": "generate_bai.py", 
+  "output": [
+    {
+      "idx_file_size": 2822736, 
+      "idx_file_md5sum": "c8b176dd766c2d16f1c3adde1df84ebd", 
+      "_jt_": {
+        "worker_id": "worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019443.PBCA-DE.7EP18_tumor.EGAN00001209691/task.generate_bai.EGAF00000585953/9dd825a7a96af9accd4d53a25bec82c4.WXS_PAIRED_tumor_7EP18_merged.bam.rmdup.bam.bai", 
+      "idx_object_id": "91da05a8-214a-5754-9632-ee55d84b54e8", 
+      "runtime": {
+        "task_start": 1503587208, 
+        "task_stop": 1503587304
+      }, 
+      "idx_file_name": "9dd825a7a96af9accd4d53a25bec82c4.WXS_PAIRED_tumor_7EP18_merged.bam.rmdup.bam.bai"
+    }
+  ], 
+  "input": {
+    "bam_file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019443.PBCA-DE.7EP18_tumor.EGAN00001209691/task.decryption.EGAF00000585953/9dd825a7a96af9accd4d53a25bec82c4.WXS_PAIRED_tumor_7EP18_merged.bam.rmdup.bam", 
+    "idx_object_id": "91da05a8-214a-5754-9632-ee55d84b54e8", 
+    "idx_file_name": "9dd825a7a96af9accd4d53a25bec82c4.WXS_PAIRED_tumor_7EP18_merged.bam.rmdup.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
