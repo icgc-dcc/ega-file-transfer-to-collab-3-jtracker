@@ -1,0 +1,26 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00000585930", 
+    "completed@generate_bai.EGAF00000585930", 
+    "completed@upload_to_aws.EGAF00000585930"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_size": 2886312, 
+    "idx_file_md5sum": "e0cdf213ab5208bc722caa3af8729459", 
+    "file_name": "aed1e1b70b55d72ac7ce8b2e79f744bb.WXS_PAIRED_tumor_4EP16_T_merged.bam.rmdup.bam", 
+    "idx_file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019419.PBCA-DE.4EP16_tumor.EGAN00001209633/task.generate_bai.EGAF00000585930/aed1e1b70b55d72ac7ce8b2e79f744bb.WXS_PAIRED_tumor_4EP16_T_merged.bam.rmdup.bam.bai", 
+    "object_id": "81d855b2-3de3-5484-ba39-13e28b4eb6b4", 
+    "file_md5sum": "aed1e1b70b55d72ac7ce8b2e79f744bb", 
+    "file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019419.PBCA-DE.4EP16_tumor.EGAN00001209633/task.decryption.EGAF00000585930/aed1e1b70b55d72ac7ce8b2e79f744bb.WXS_PAIRED_tumor_4EP16_T_merged.bam.rmdup.bam", 
+    "file_size": 7483603722, 
+    "bundle_id": "EGAZ00001019419", 
+    "idx_object_id": "324c7e2c-04e1-5548-b6e6-5c333809d116", 
+    "idx_file_name": "aed1e1b70b55d72ac7ce8b2e79f744bb.WXS_PAIRED_tumor_4EP16_T_merged.bam.rmdup.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
