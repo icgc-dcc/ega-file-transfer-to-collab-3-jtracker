@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000585950"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "4fbe0b0b4832f9e2b77c0578429c8ad1.WXS_PAIRED_tumor_6EP15_T_merged.bam.rmdup.bam", 
+    "project_code": "PBCA-DE", 
+    "object_id": "0bbdd060-4a2b-5231-a113-91155c018570"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
