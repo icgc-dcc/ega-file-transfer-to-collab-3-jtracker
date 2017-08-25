@@ -1,0 +1,17 @@
+{
+  "task": "generate_bai", 
+  "depends_on": [
+    "completed@decryption.EGAF00000585966", 
+    "completed@md5sum_check_decrypt.EGAF00000585966"
+  ], 
+  "tool": "generate_bai", 
+  "command": "generate_bai.py", 
+  "input": {
+    "bam_file": "{{file@decryption.EGAF00000585966}}", 
+    "idx_object_id": "5f742aaf-d2c4-59aa-857e-4f045bcf589e", 
+    "idx_file_name": "4f84d667b8fcc044a8828bb2a0bcfaeb.WXS_PAIRED_blood_4EP29_T_merged.bam.rmdup.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
