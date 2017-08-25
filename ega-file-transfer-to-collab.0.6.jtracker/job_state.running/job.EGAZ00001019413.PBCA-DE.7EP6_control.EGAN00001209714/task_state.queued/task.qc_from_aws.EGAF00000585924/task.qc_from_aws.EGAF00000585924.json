@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000585924"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "debcc80bd45611e2754d98a940293db6.WXS_PAIRED_blood_7EP6_merged.bam.rmdup.bam", 
+    "project_code": "PBCA-DE", 
+    "object_id": "4c21433e-4dff-5e11-a0d6-514d6b11da7b"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
