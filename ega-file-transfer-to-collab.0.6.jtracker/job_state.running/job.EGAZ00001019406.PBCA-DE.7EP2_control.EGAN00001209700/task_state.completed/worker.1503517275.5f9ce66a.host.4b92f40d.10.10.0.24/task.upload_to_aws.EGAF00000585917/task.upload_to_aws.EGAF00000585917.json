@@ -1,0 +1,45 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000585917", 
+    "completed@decryption.EGAF00000585917", 
+    "completed@download.EGAF00000585917"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": "a2db0e4dd6ee745fdc159bb14f562324", 
+      "_jt_": {
+        "worker_id": "worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019406.PBCA-DE.7EP2_control.EGAN00001209700/task.generate_bai.EGAF00000585917/39b1f756efdee9d1624148dc7494501a.WXS_PAIRED_blood_7EP2_merged.bam.rmdup.bam.bai", 
+      "allowed_upload": false, 
+      "file_md5sum": "39b1f756efdee9d1624148dc7494501a", 
+      "file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019406.PBCA-DE.7EP2_control.EGAN00001209700/task.decryption.EGAF00000585917/39b1f756efdee9d1624148dc7494501a.WXS_PAIRED_blood_7EP2_merged.bam.rmdup.bam", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1503625670, 
+        "task_stop": 1503625670
+      }
+    }
+  ], 
+  "input": {
+    "idx_file_md5sum": "a2db0e4dd6ee745fdc159bb14f562324", 
+    "file_name": "39b1f756efdee9d1624148dc7494501a.WXS_PAIRED_blood_7EP2_merged.bam.rmdup.bam", 
+    "idx_file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019406.PBCA-DE.7EP2_control.EGAN00001209700/task.generate_bai.EGAF00000585917/39b1f756efdee9d1624148dc7494501a.WXS_PAIRED_blood_7EP2_merged.bam.rmdup.bam.bai", 
+    "object_id": "804a12c4-ea88-5dcc-b91e-d160b5cd8ded", 
+    "idx_file_name": "39b1f756efdee9d1624148dc7494501a.WXS_PAIRED_blood_7EP2_merged.bam.rmdup.bam.bai", 
+    "file_md5sum": "39b1f756efdee9d1624148dc7494501a", 
+    "file": "/home/ubuntu/jtracker/worker.1503517275.5f9ce66a.host.4b92f40d.10.10.0.24/job.EGAZ00001019406.PBCA-DE.7EP2_control.EGAN00001209700/task.decryption.EGAF00000585917/39b1f756efdee9d1624148dc7494501a.WXS_PAIRED_blood_7EP2_merged.bam.rmdup.bam", 
+    "idx_object_id": "fe2af171-140b-521a-92d1-b4991f37a31a", 
+    "project_code": "PBCA-DE"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
