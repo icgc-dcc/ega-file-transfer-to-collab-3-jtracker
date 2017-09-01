@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1504120675.a58629fc.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "b68502026d2ed546cb722d3cede9f062", 
+      "file": "/home/ubuntu/jtracker/worker.1504120675.a58629fc.host.4b92f40d.10.10.0.24/job.EGAR00001269893.SKCA-BR.ML_99_T_01.EGAN00001252367/task.prepare_metadata_xml/bundle.EGAR00001269893.xml", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1504296715, 
+        "task_stop": 1504296715
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001269893.xml", 
+    "object_id": "159ec9cd-f133-5991-b343-3f35c7223f76", 
+    "file_md5sum": "b68502026d2ed546cb722d3cede9f062", 
+    "file": "/home/ubuntu/jtracker/worker.1504120675.a58629fc.host.4b92f40d.10.10.0.24/job.EGAR00001269893.SKCA-BR.ML_99_T_01.EGAN00001252367/task.prepare_metadata_xml/bundle.EGAR00001269893.xml", 
+    "file_size": 3527, 
+    "bundle_id": "EGAR00001269893", 
+    "project_code": "SKCA-BR"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
