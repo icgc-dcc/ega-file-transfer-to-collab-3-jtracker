@@ -1,0 +1,30 @@
+{
+  "task": "qc_from_collab", 
+  "depends_on": [
+    "completed@upload.EGAF00000695924"
+  ], 
+  "tool": "qc_from_collab", 
+  "command": "qc_from_collab.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1504622098.20e0cb2b.host.4b92f40d.10.10.0.3", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "task_info": "", 
+      "runtime": {
+        "task_start": 1504643409, 
+        "task_stop": 1504645756
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "07b74f4e0c7f3fd20d8d0ce153e5ac01.180241_icgc.bam", 
+    "object_id": "eb321efe-1ec6-59a9-af32-6eda4f18f960"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
