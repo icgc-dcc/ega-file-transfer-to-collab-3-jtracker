@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000681685"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "d770b7bbcde739fa2a4fb5e48e4f4677.BD224T_TAGCTT_L004_R2_026.fastq.bz2", 
+    "project_code": "BTCA-JP", 
+    "object_id": "828e430a-dafb-5341-8708-f43132b82ca4"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
