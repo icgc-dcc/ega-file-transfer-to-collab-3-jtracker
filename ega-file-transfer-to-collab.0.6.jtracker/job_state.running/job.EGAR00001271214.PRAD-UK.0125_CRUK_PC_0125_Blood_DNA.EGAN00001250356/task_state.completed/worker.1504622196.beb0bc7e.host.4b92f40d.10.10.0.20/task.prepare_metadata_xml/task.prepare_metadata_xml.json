@@ -1,0 +1,39 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "7673c515d042ceacbb716eb6a5323907", 
+      "xml_file_name": "bundle.EGAR00001271214.xml", 
+      "xml_file": "/home/ubuntu/jtracker/worker.1504622196.beb0bc7e.host.4b92f40d.10.10.0.20/job.EGAR00001271214.PRAD-UK.0125_CRUK_PC_0125_Blood_DNA.EGAN00001250356/task.prepare_metadata_xml/bundle.EGAR00001271214.xml", 
+      "_jt_": {
+        "worker_id": "worker.1504622196.beb0bc7e.host.4b92f40d.10.10.0.20", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "xml_file_size": 4427, 
+      "runtime": {
+        "task_start": 1504704207, 
+        "task_stop": 1504704209
+      }
+    }
+  ], 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170630", 
+    "ega_metadata_file_name": "bundle.EGAR00001271214.xml", 
+    "ega_study_id": "EGAS00001000262", 
+    "ega_dataset_id": "EGAD00001001116", 
+    "ega_sample_id": "EGAN00001250356", 
+    "ega_analysis_id": null, 
+    "ega_experiment_id": "EGAX00001245374", 
+    "bundle_id": "EGAR00001271214", 
+    "project_code": "PRAD-UK", 
+    "ega_run_id": "EGAR00001271214"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
