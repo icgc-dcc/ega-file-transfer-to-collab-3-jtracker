@@ -1,0 +1,31 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000681548"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1504622182.3ee1d2ef.host.4b92f40d.10.10.0.17", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "task_info": "", 
+      "runtime": {
+        "task_start": 1504796452, 
+        "task_stop": 1504796452
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "a9511fcbf61589405a6043bc87f6934b.BD211T_GCCAAT_L003_R1_021.fastq.bz2", 
+    "project_code": "BTCA-JP", 
+    "object_id": "6bb2654d-8164-545d-ba09-d01a76d7340b"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

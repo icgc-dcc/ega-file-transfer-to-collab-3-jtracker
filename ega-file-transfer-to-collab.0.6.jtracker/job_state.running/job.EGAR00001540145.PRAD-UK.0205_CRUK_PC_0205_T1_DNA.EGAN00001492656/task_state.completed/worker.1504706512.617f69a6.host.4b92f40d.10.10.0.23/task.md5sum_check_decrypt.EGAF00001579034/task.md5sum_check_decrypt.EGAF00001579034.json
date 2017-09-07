@@ -1,0 +1,30 @@
+{
+  "task": "md5sum_check_decrypt", 
+  "depends_on": [
+    "completed@decryption.EGAF00001579034"
+  ], 
+  "tool": "md5sum_check", 
+  "command": "md5sum_check.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1504706512.617f69a6.host.4b92f40d.10.10.0.23", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "task_info": "Pass md5sum check", 
+      "runtime": {
+        "task_start": 1504805166, 
+        "task_stop": 1504805660
+      }
+    }
+  ], 
+  "input": {
+    "file_md5sum": "4b7338cf4dd6bd7cfab96da41063b3bd", 
+    "file": "/home/ubuntu/jtracker/worker.1504706512.617f69a6.host.4b92f40d.10.10.0.23/job.EGAR00001540145.PRAD-UK.0205_CRUK_PC_0205_T1_DNA.EGAN00001492656/task.decryption.EGAF00001579034/4b7338cf4dd6bd7cfab96da41063b3bd.20170307_icgc_prostate_156.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

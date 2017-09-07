@@ -1,0 +1,45 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00001579034", 
+    "completed@decryption.EGAF00001579034", 
+    "completed@download.EGAF00001579034"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1504706512.617f69a6.host.4b92f40d.10.10.0.23", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": true, 
+      "file_md5sum": "4b7338cf4dd6bd7cfab96da41063b3bd", 
+      "file": "/home/ubuntu/jtracker/worker.1504706512.617f69a6.host.4b92f40d.10.10.0.23/job.EGAR00001540145.PRAD-UK.0205_CRUK_PC_0205_T1_DNA.EGAN00001492656/task.decryption.EGAF00001579034/4b7338cf4dd6bd7cfab96da41063b3bd.20170307_icgc_prostate_156.bam", 
+      "file_size": 92974937156, 
+      "runtime": {
+        "task_start": 1504805751, 
+        "task_stop": 1504806642
+      }
+    }
+  ], 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "4b7338cf4dd6bd7cfab96da41063b3bd.20170307_icgc_prostate_156.bam", 
+    "idx_file": null, 
+    "object_id": "c8f24d72-53b3-5a7f-8fc5-9e3d91d59883", 
+    "idx_file_name": null, 
+    "file_md5sum": "4b7338cf4dd6bd7cfab96da41063b3bd", 
+    "file": "/home/ubuntu/jtracker/worker.1504706512.617f69a6.host.4b92f40d.10.10.0.23/job.EGAR00001540145.PRAD-UK.0205_CRUK_PC_0205_T1_DNA.EGAN00001492656/task.decryption.EGAF00001579034/4b7338cf4dd6bd7cfab96da41063b3bd.20170307_icgc_prostate_156.bam", 
+    "idx_object_id": null, 
+    "project_code": "PRAD-UK"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
