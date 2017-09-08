@@ -1,0 +1,31 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000696227"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1504706695.6aa2f313.host.4b92f40d.10.10.0.30", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "task_info": "", 
+      "runtime": {
+        "task_start": 1504825087, 
+        "task_stop": 1504827789
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "4591b3448b4592e61554361951d40bcb.180136_icgc.bam", 
+    "project_code": "PRAD-UK", 
+    "object_id": "d2bf9eca-7785-5795-b5d8-5dff41f8074f"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000694320"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1504706680.635cf747.host.4b92f40d.10.10.0.17", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "task_info": "", 
+      "runtime": {
+        "task_start": 1504855716, 
+        "task_stop": 1504855716
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "d324da7d712a02beab6f599d53a4cc55.ML_99_S_448860_R2.fastq.gz", 
+    "project_code": "SKCA-BR", 
+    "object_id": "e773f234-8779-5a3b-891a-9d10a6522728"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
