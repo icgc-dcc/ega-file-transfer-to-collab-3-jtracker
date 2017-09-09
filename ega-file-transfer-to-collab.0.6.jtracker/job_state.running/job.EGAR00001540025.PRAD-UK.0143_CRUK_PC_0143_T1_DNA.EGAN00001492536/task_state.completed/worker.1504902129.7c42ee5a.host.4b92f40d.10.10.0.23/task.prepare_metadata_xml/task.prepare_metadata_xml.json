@@ -1,0 +1,39 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "32312e4bd82d4a95c344a3849d8090d6", 
+      "xml_file_name": "bundle.EGAR00001540025.xml", 
+      "xml_file": "/home/ubuntu/jtracker/worker.1504902129.7c42ee5a.host.4b92f40d.10.10.0.23/job.EGAR00001540025.PRAD-UK.0143_CRUK_PC_0143_T1_DNA.EGAN00001492536/task.prepare_metadata_xml/bundle.EGAR00001540025.xml", 
+      "_jt_": {
+        "worker_id": "worker.1504902129.7c42ee5a.host.4b92f40d.10.10.0.23", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "xml_file_size": 4383, 
+      "runtime": {
+        "task_start": 1504980481, 
+        "task_stop": 1504980482
+      }
+    }
+  ], 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170630", 
+    "ega_metadata_file_name": "bundle.EGAR00001540025.xml", 
+    "ega_study_id": "EGAS00001000262", 
+    "ega_dataset_id": "EGAD00001003225", 
+    "ega_sample_id": "EGAN00001492536", 
+    "ega_analysis_id": null, 
+    "ega_experiment_id": "EGAX00001496218", 
+    "bundle_id": "EGAR00001540025", 
+    "project_code": "PRAD-UK", 
+    "ega_run_id": "EGAR00001540025"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
