@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000697888", 
+    "completed@decryption.EGAF00000697888", 
+    "completed@download.EGAF00000697888"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": "{{idx_file_md5sum@generate_bai.EGAF00000697888}}", 
+    "file_name": "01b8849f07a8b91c877dd65114a31d56.180154_icgc.bam", 
+    "idx_file": "{{idx_file@generate_bai.EGAF00000697888}}", 
+    "object_id": "{{object_id@download.EGAF00000697888}}", 
+    "idx_file_name": "{{idx_file_name@generate_bai.EGAF00000697888}}", 
+    "file_md5sum": "{{file_md5sum@download.EGAF00000697888}}", 
+    "file": "{{file@decryption.EGAF00000697888}}", 
+    "idx_object_id": "{{idx_object_id@generate_bai.EGAF00000697888}}", 
+    "project_code": "PRAD-UK"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
