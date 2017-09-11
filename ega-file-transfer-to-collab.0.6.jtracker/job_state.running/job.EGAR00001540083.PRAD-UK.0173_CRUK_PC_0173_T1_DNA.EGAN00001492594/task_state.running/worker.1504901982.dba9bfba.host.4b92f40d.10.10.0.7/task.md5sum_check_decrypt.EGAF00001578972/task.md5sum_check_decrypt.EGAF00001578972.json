@@ -1,0 +1,15 @@
+{
+  "task": "md5sum_check_decrypt", 
+  "depends_on": [
+    "completed@decryption.EGAF00001578972"
+  ], 
+  "tool": "md5sum_check", 
+  "command": "md5sum_check.py", 
+  "input": {
+    "file_md5sum": "8954b4c9004cb7317d2906a0938b386c", 
+    "file": "/home/ubuntu/jtracker/worker.1504901982.dba9bfba.host.4b92f40d.10.10.0.7/job.EGAR00001540083.PRAD-UK.0173_CRUK_PC_0173_T1_DNA.EGAN00001492594/task.decryption.EGAF00001578972/8954b4c9004cb7317d2906a0938b386c.20170307_icgc_prostate_094.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
