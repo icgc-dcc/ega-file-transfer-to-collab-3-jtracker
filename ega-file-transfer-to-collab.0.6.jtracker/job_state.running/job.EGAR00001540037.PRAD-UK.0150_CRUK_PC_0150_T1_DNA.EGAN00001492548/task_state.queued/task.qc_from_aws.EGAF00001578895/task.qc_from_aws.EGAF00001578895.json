@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00001578895"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "da09b8ce3afb30aa75ec388778d3c460.20170307_icgc_prostate_048.bam", 
+    "project_code": "PRAD-UK", 
+    "object_id": "6b04a81c-4304-560c-8428-ef0c8e0c041c"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
