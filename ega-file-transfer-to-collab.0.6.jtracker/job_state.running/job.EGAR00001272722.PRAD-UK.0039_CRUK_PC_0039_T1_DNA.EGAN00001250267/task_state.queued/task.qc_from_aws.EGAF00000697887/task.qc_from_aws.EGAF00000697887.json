@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000697887"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "ae40e3aae4cabcbf52e8ef4060e8f9d0.180149_icgc.bam", 
+    "project_code": "PRAD-UK", 
+    "object_id": "049862f3-d5e2-51fc-ba1d-622ecfaedb1f"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
