@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000145142", 
+    "completed@decryption.EGAF00000145142", 
+    "completed@download.EGAF00000145142"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "14f29ad0f55c0f2d6c7ec246af8fdba7.171043_icgc.bam", 
+    "idx_file": null, 
+    "object_id": "9a8ecaae-c35e-5821-a172-93bd1d43a8e7", 
+    "project_code": "PRAD-UK", 
+    "file_md5sum": "14f29ad0f55c0f2d6c7ec246af8fdba7", 
+    "file": "/home/ubuntu/jtracker/worker.1505227757.5fd24f7f.host.4b92f40d.10.10.0.7/job.EGAR00001074525.PRAD-UK.0008_CRUK_PC_0008_Blood_DNA.EGAN00001085156/task.decryption.EGAF00000145142/14f29ad0f55c0f2d6c7ec246af8fdba7.171043_icgc.bam", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
