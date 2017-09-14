@@ -1,0 +1,26 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00001578743", 
+    "completed@generate_bai.EGAF00001578743", 
+    "completed@upload_to_aws.EGAF00001578743"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_size": null, 
+    "idx_file_md5sum": null, 
+    "file_name": "51ee8ca88cae76f0b6485ff127a5f323.20170307_icgc_prostate_012.bam", 
+    "idx_file": null, 
+    "object_id": "478c667c-f123-5a62-8021-ab1121590dba", 
+    "file_md5sum": "51ee8ca88cae76f0b6485ff127a5f323", 
+    "file": "/home/ubuntu/jtracker/worker.1505228519.9922d90f.host.4b92f40d.10.10.0.20/job.EGAR00001540001.PRAD-UK.0131_CRUK_PC_0131_T1_DNA.EGAN00001492512/task.decryption.EGAF00001578743/51ee8ca88cae76f0b6485ff127a5f323.20170307_icgc_prostate_012.bam", 
+    "file_size": 110504516998, 
+    "bundle_id": "EGAR00001540001", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
