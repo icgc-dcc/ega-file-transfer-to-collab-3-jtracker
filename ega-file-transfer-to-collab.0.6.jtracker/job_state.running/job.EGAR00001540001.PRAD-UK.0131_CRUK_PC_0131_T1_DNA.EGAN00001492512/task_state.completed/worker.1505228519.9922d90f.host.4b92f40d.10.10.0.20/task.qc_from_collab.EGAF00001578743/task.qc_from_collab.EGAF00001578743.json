@@ -1,0 +1,30 @@
+{
+  "task": "qc_from_collab", 
+  "depends_on": [
+    "completed@upload.EGAF00001578743"
+  ], 
+  "tool": "qc_from_collab", 
+  "command": "qc_from_collab.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1505228519.9922d90f.host.4b92f40d.10.10.0.20", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "task_info": "", 
+      "runtime": {
+        "task_start": 1505362164, 
+        "task_stop": 1505363948
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "51ee8ca88cae76f0b6485ff127a5f323.20170307_icgc_prostate_012.bam", 
+    "object_id": "478c667c-f123-5a62-8021-ab1121590dba"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
