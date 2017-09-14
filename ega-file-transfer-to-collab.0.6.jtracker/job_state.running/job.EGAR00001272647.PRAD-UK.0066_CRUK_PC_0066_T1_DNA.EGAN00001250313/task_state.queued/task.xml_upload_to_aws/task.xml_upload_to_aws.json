@@ -1,0 +1,20 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "file_name": "bundle.EGAR00001272647.xml", 
+    "object_id": "b9b9e656-0712-52d9-9837-f77c6a8faff4", 
+    "file_md5sum": "{{xml_file_md5sum@prepare_metadata_xml}}", 
+    "file": "{{xml_file@prepare_metadata_xml}}", 
+    "file_size": "{{xml_file_size@prepare_metadata_xml}}", 
+    "bundle_id": "EGAR00001272647", 
+    "project_code": "PRAD-UK"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
