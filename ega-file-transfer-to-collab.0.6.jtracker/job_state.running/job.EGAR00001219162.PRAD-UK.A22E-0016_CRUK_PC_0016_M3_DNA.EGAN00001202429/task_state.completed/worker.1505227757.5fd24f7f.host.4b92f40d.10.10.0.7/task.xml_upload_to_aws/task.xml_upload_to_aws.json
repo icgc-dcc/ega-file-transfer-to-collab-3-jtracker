@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1505227757.5fd24f7f.host.4b92f40d.10.10.0.7", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": true, 
+      "file_md5sum": "f85e7b71a9134ccf9efc46ead28471a3", 
+      "file": "/home/ubuntu/jtracker/worker.1505227757.5fd24f7f.host.4b92f40d.10.10.0.7/job.EGAR00001219162.PRAD-UK.A22E-0016_CRUK_PC_0016_M3_DNA.EGAN00001202429/task.prepare_metadata_xml/bundle.EGAR00001219162.xml", 
+      "file_size": 4158, 
+      "runtime": {
+        "task_start": 1505450468, 
+        "task_stop": 1505450479
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001219162.xml", 
+    "object_id": "4145a57d-684a-5b94-978d-e3bcb94c70be", 
+    "file_md5sum": "f85e7b71a9134ccf9efc46ead28471a3", 
+    "file": "/home/ubuntu/jtracker/worker.1505227757.5fd24f7f.host.4b92f40d.10.10.0.7/job.EGAR00001219162.PRAD-UK.A22E-0016_CRUK_PC_0016_M3_DNA.EGAN00001202429/task.prepare_metadata_xml/bundle.EGAR00001219162.xml", 
+    "file_size": 4158, 
+    "bundle_id": "EGAR00001219162", 
+    "project_code": "PRAD-UK"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
