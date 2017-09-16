@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000694321", 
+    "completed@decryption.EGAF00000694321", 
+    "completed@download.EGAF00000694321"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": "{{idx_file_md5sum@generate_bai.EGAF00000694321}}", 
+    "file_name": "944da5943eb8bbbaf8a97f88aef7a090.ML_69_S_229803_R1.fastq.gz", 
+    "idx_file": "{{idx_file@generate_bai.EGAF00000694321}}", 
+    "object_id": "{{object_id@download.EGAF00000694321}}", 
+    "idx_file_name": "{{idx_file_name@generate_bai.EGAF00000694321}}", 
+    "file_md5sum": "{{file_md5sum@download.EGAF00000694321}}", 
+    "file": "{{file@decryption.EGAF00000694321}}", 
+    "idx_object_id": "{{idx_object_id@generate_bai.EGAF00000694321}}", 
+    "project_code": "SKCA-BR"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
