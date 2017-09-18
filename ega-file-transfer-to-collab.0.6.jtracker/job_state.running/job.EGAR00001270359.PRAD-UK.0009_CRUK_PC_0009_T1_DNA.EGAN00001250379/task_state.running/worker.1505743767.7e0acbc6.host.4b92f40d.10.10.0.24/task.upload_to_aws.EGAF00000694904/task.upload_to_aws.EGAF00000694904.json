@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000694904", 
+    "completed@decryption.EGAF00000694904", 
+    "completed@download.EGAF00000694904"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "aa4bcfbfdae06c947b10f5843c7b3105.180301_icgc.bam", 
+    "idx_file": null, 
+    "object_id": "fbf9c3df-11c1-56c8-9a51-4a7f25a10e02", 
+    "project_code": "PRAD-UK", 
+    "file_md5sum": "aa4bcfbfdae06c947b10f5843c7b3105", 
+    "file": "/home/ubuntu/jtracker/worker.1505743767.7e0acbc6.host.4b92f40d.10.10.0.24/job.EGAR00001270359.PRAD-UK.0009_CRUK_PC_0009_T1_DNA.EGAN00001250379/task.decryption.EGAF00000694904/aa4bcfbfdae06c947b10f5843c7b3105.180301_icgc.bam", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
