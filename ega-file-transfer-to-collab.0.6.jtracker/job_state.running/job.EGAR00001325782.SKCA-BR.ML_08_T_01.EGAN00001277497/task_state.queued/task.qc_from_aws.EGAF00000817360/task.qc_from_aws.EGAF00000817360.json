@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000817360"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "e18cc0d5a8c29778520b0a7640cdb954.ML_08_T_F5.QV.qual.gz", 
+    "project_code": "SKCA-BR", 
+    "object_id": "ca38f536-2cd2-50e6-a3c7-bce036783689"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
