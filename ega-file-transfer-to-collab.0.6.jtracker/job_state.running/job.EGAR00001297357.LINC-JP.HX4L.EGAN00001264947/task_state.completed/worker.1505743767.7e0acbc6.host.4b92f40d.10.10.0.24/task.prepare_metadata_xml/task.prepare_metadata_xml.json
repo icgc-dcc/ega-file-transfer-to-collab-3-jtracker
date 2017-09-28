@@ -1,0 +1,39 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "8ac550679318460b8b919c5487bac103", 
+      "xml_file_name": "bundle.EGAR00001297357.xml", 
+      "xml_file": "/home/ubuntu/jtracker/worker.1505743767.7e0acbc6.host.4b92f40d.10.10.0.24/job.EGAR00001297357.LINC-JP.HX4L.EGAN00001264947/task.prepare_metadata_xml/bundle.EGAR00001297357.xml", 
+      "_jt_": {
+        "worker_id": "worker.1505743767.7e0acbc6.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "xml_file_size": 3151, 
+      "runtime": {
+        "task_start": 1506612808, 
+        "task_stop": 1506612808
+      }
+    }
+  ], 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170630", 
+    "ega_metadata_file_name": "bundle.EGAR00001297357.xml", 
+    "ega_study_id": "EGAS00001000671", 
+    "ega_dataset_id": "EGAD00001001263", 
+    "ega_sample_id": "EGAN00001264947", 
+    "ega_analysis_id": null, 
+    "ega_experiment_id": "EGAX00001271184", 
+    "bundle_id": "EGAR00001297357", 
+    "project_code": "LINC-JP", 
+    "ega_run_id": "EGAR00001297357"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
