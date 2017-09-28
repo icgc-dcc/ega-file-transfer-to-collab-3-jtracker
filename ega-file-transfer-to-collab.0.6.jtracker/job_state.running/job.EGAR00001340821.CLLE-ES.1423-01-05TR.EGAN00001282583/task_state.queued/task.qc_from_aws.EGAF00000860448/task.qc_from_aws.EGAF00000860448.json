@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000860448"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "70fcf4f300d1ee1f6b0bffd8aa8b801d.C3NYUACXX_5_19_2.fastq.gz", 
+    "project_code": "CLLE-ES", 
+    "object_id": "3794a857-6537-544e-b93f-fc91c32812ae"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
