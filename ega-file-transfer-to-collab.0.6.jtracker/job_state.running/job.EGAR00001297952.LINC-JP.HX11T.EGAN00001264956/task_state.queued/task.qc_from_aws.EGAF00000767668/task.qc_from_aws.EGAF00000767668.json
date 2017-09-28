@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000767668"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "bbfccd72e7651cbfc7eb2a09d2ce6341.HX11T_100311GA1_2_unaligned.bam", 
+    "project_code": "LINC-JP", 
+    "object_id": "5c327b4d-6604-56ca-863d-0a4982160c4a"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
