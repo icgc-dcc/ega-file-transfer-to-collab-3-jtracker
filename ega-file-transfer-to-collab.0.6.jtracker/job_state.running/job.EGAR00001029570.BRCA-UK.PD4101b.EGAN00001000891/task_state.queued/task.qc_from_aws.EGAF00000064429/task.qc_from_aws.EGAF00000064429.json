@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000064429"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "23c374c5d7ceac7cda391dbd3f63f0fa.4894_6.bam", 
+    "project_code": "BRCA-UK", 
+    "object_id": "d3419461-c76c-54cd-b310-af756a600736"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
