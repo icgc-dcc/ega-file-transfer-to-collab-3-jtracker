@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000149156"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "8774fb2f8062c6ceaba50b5ddb9a292f.Sample_00340131_1.bam", 
+    "project_code": "ORCA-IN", 
+    "object_id": "52b517d5-91cc-59da-b7a5-bd26edca0be1"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
