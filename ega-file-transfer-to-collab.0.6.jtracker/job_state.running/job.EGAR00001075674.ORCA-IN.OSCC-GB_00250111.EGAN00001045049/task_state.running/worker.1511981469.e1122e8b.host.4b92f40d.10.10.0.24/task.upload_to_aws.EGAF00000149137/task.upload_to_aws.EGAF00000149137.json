@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000149137", 
+    "completed@decryption.EGAF00000149137", 
+    "completed@download.EGAF00000149137"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "c623b83474cfc4c7bc4b1144f6c5c2bf.Sample_00250111_1.bam", 
+    "idx_file": null, 
+    "object_id": "8350b238-5d31-561b-b6eb-181cb781ba55", 
+    "project_code": "ORCA-IN", 
+    "file_md5sum": "c623b83474cfc4c7bc4b1144f6c5c2bf", 
+    "file": "/home/ubuntu/jtracker/worker.1511981469.e1122e8b.host.4b92f40d.10.10.0.24/job.EGAR00001075674.ORCA-IN.OSCC-GB_00250111.EGAN00001045049/task.decryption.EGAF00000149137/c623b83474cfc4c7bc4b1144f6c5c2bf.Sample_00250111_1.bam", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
