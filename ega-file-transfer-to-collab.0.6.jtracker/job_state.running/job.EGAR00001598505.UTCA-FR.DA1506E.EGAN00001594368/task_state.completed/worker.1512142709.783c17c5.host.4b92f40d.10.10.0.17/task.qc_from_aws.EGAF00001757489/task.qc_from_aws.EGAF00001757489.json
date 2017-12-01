@@ -1,0 +1,31 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00001757489"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1512142709.783c17c5.host.4b92f40d.10.10.0.17", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "task_info": "", 
+      "runtime": {
+        "task_start": 1512144071, 
+        "task_stop": 1512144071
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "14fbffda12761a23b2605462de1b1d03.ls3081_C79P1ANXX_1_19nf.ua.bam", 
+    "project_code": "UTCA-FR", 
+    "object_id": ""
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
