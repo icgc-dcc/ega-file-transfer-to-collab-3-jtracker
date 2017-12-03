@@ -1,0 +1,39 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "72612c121629676f1a3553932e368804", 
+      "xml_file_name": "bundle.EGAR00001251031.xml", 
+      "xml_file": "/home/ubuntu/jtracker/worker.1512150148.bcc18ada.host.4b92f40d.10.10.0.17/job.EGAR00001251031.ORCA-IN.OSCC-GB_00620111.EGAN00001239801/task.prepare_metadata_xml/bundle.EGAR00001251031.xml", 
+      "_jt_": {
+        "worker_id": "worker.1512150148.bcc18ada.host.4b92f40d.10.10.0.17", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "xml_file_size": 5741, 
+      "runtime": {
+        "task_start": 1512321433, 
+        "task_stop": 1512321433
+      }
+    }
+  ], 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20171115", 
+    "ega_metadata_file_name": "bundle.EGAR00001251031.xml", 
+    "ega_study_id": "EGAS00001001028", 
+    "ega_dataset_id": "EGAD00001001060", 
+    "ega_sample_id": "EGAN00001239801", 
+    "ega_analysis_id": null, 
+    "ega_experiment_id": "EGAX00001236161", 
+    "bundle_id": "EGAR00001251031", 
+    "project_code": "ORCA-IN", 
+    "ega_run_id": "EGAR00001251031"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
