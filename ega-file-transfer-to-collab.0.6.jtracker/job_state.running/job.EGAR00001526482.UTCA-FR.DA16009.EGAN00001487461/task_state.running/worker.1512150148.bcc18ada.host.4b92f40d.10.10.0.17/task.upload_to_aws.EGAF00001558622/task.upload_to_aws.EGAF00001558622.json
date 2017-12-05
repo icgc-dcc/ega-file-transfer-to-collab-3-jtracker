@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00001558622", 
+    "completed@decryption.EGAF00001558622", 
+    "completed@download.EGAF00001558622"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "32105dae61dda41e790bb09dba5f986a.ls3531_C9HLTANXX_4_7nf.ua.bam", 
+    "idx_file": null, 
+    "object_id": "7ef7d421-2281-556f-ae59-54830027a19a", 
+    "project_code": "UTCA-FR", 
+    "file_md5sum": "32105dae61dda41e790bb09dba5f986a", 
+    "file": "/home/ubuntu/jtracker/worker.1512150148.bcc18ada.host.4b92f40d.10.10.0.17/job.EGAR00001526482.UTCA-FR.DA16009.EGAN00001487461/task.decryption.EGAF00001558622/32105dae61dda41e790bb09dba5f986a.ls3531_C9HLTANXX_4_7nf.ua.bam", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
