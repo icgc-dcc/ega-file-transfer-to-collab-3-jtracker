@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1512150148.bcc18ada.host.4b92f40d.10.10.0.17", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "cf22f25b01cc88a9c01f28b09f924912", 
+      "file": "/home/ubuntu/jtracker/worker.1512150148.bcc18ada.host.4b92f40d.10.10.0.17/job.EGAR00001526476.UTCA-FR.DA16009.EGAN00001487461/task.prepare_metadata_xml/bundle.EGAR00001526476.xml", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1512745145, 
+        "task_stop": 1512745145
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001526476.xml", 
+    "object_id": "917e5269-9151-57d3-9c82-d838dae20e63", 
+    "file_md5sum": "cf22f25b01cc88a9c01f28b09f924912", 
+    "file": "/home/ubuntu/jtracker/worker.1512150148.bcc18ada.host.4b92f40d.10.10.0.17/job.EGAR00001526476.UTCA-FR.DA16009.EGAN00001487461/task.prepare_metadata_xml/bundle.EGAR00001526476.xml", 
+    "file_size": 4021, 
+    "bundle_id": "EGAR00001526476", 
+    "project_code": "UTCA-FR"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
