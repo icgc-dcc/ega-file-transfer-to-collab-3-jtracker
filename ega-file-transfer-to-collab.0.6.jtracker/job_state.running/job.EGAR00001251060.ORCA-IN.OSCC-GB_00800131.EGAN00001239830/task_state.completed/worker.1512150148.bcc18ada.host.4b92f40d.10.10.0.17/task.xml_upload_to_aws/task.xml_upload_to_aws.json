@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1512150148.bcc18ada.host.4b92f40d.10.10.0.17", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": true, 
+      "file_md5sum": "067d2aaf754a0c2da2fa0d3ead538697", 
+      "file": "/home/ubuntu/jtracker/worker.1512150148.bcc18ada.host.4b92f40d.10.10.0.17/job.EGAR00001251060.ORCA-IN.OSCC-GB_00800131.EGAN00001239830/task.prepare_metadata_xml/bundle.EGAR00001251060.xml", 
+      "file_size": 5740, 
+      "runtime": {
+        "task_start": 1512778869, 
+        "task_stop": 1512778877
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001251060.xml", 
+    "object_id": "c07dc48b-4180-58b6-a832-2d2d03623aa5", 
+    "file_md5sum": "067d2aaf754a0c2da2fa0d3ead538697", 
+    "file": "/home/ubuntu/jtracker/worker.1512150148.bcc18ada.host.4b92f40d.10.10.0.17/job.EGAR00001251060.ORCA-IN.OSCC-GB_00800131.EGAN00001239830/task.prepare_metadata_xml/bundle.EGAR00001251060.xml", 
+    "file_size": 5740, 
+    "bundle_id": "EGAR00001251060", 
+    "project_code": "ORCA-IN"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
